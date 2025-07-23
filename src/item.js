@@ -1,11 +1,18 @@
 // item.js --> implement todo list item functionality
 
 export class ToDoItem {
+    #id;
+
     constructor(title, description, dueDate, priority) {
         this.title = title;
         this.description = description;
         this.dueDate = dueDate;
         this.priority = priority;
+        this.#id = crypto.randomUUID();
+    }
+
+    get id() {
+        return this.#id;
     }
 
     changeTitle(newTitle) {
