@@ -1,6 +1,6 @@
-// item.js --> implement todo list functionality
+// item.js --> implement todo list item functionality
 
-class ToDoItem {
+export class ToDoItem {
     constructor(title, description, dueDate, priority) {
         this.title = title;
         this.description = description;
