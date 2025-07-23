@@ -1,4 +1,4 @@
-// list.js --> implement todo list functionality
+// item.js --> implement todo list functionality
 
 class ToDoItem {
     constructor(title, description, dueDate, priority) {
