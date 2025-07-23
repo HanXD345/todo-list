@@ -4,7 +4,9 @@
   "description": "Todo List project from The Odin Project.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack serve"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
